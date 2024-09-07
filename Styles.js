@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
   },
   head: {
     backgroundColor: "#7cabf2",
@@ -14,6 +14,7 @@ const styles = StyleSheet.create({
     minHeight: 100,
     justifyContent: 'center',
     padding: 10,
+    alignSelf: "flex-start",
   },
   tittle: {
     fontSize: 30,
@@ -48,17 +49,20 @@ const styles = StyleSheet.create({
     padding: 15,
     borderRadius: 10,
     margin: 10,
+    marginTop: 80,
+    
   },
   textButton: {
     fontSize: 20,
     color: "white",
-    textAlign: 'center',
+    textAlign: 'left',
   },
   main: {
     backgroundColor: '#f0f0f0',
     padding: 20,
     width: "100%",
     alignItems: "center",
+    flex: 1
   },
 });
 
